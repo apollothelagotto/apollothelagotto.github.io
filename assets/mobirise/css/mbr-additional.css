@@ -1391,7 +1391,7 @@ body {
 .cid-qypAJ3fG88 {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/mbr-1914x1080.jpg");
+  background-image: url("../../../assets/images/leonardo-andre.jpg");
 }
 .cid-qx5qCE53C5 {
   background-image: url("../../../assets/images/jared-sluyter-302613-2000x1333.jpg");
@@ -2056,6 +2056,8 @@ body {
   transition: 0.2s background ease-in-out;
 }
 .cid-qx5qL0gQ09 {
+  padding-top: 90px;
+  padding-bottom: 90px;
   background-image: url("../../../assets/images/mbr-1920x1080.jpg");
 }
 .cid-qx5qSsvUvI {
@@ -2168,6 +2170,42 @@ body {
     -webkit-justify-content: center;
   }
 }
+
+
+.social-list {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+}
+.social-list .mbr-iconfont-social {
+  font-size: 1.3rem;
+  color: #fff;
+}
+.social-list .soc-item {
+  margin: 0 .5rem;
+}
+
+.social-list a {
+  margin: 0;
+  opacity: .5;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+.social-list a:hover {
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .social-list {
+      display:none;
+  }
+}
+
 .cid-qx5sc7hoEt .navbar {
   padding: .5rem 0;
   background: #333333;
